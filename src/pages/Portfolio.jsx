@@ -109,7 +109,7 @@ export default function Portfolio() {
         <div className="flex flex-col pt-10"> 
 
           <h2 className="ml-50 text-3xl font-semibold mb-6" style={{ fontFamily: "Lora" }}>
-            Learnify
+            Tech-Z
           </h2>
 
           <span className="text-base max-w-xl text-gray-300 leading-relaxed">
