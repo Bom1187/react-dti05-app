@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <NavBar hc={hc} />
-      <div className="flex items-center justify-center mr-20 mt-20">
+      <div className="flex items-center justify-center mr-20 mt-50">
         <div className="text-white">
           <h1 style={{ fontFamily: "Lora" }} className="text-3xl font">
             Frontend Web
@@ -31,17 +31,17 @@ export default function Home() {
           <br />
           <span>Web Developer based in Thailand</span>
           <div className="flex mt-5">
-            <FaLinkedinIn className="mr2 text-4xl bg-white text-black rounded-3xl p-2" />{" "}
+            <FaLinkedinIn className="mr2 text-4xl bg-white text-black rounded-3xl p-2" />
             <FaGithub className="ml-2 text-4xl" />
           </div>
         </div>
 
-        <div className="ml-20">
+        <div className="ml-70">
           <img className="w-50" src={profile} alt="profile" />
         </div>
       </div>
 
-      <div className="flex items-center justify-center mt-10">
+      <div className="flex items-center justify-center mt-40 ">
         <h1 className=" text-white">My Tech Stack</h1>
       </div>
 
